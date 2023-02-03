@@ -32,15 +32,5 @@ public abstract class PublicTransportation {
         return vehicleNum;
     }
 
-    public int getFuel() {
-        return fuel;
-    }
 
-    public int getSpeed() {
-        return speed;
-    }
-
-    public int getPassengerNum() {
-        return passengerNum;
-    }
 }
