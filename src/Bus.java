@@ -2,6 +2,7 @@ public class Bus extends PublicTransportation implements Vehicle {
 
     final int MAX_SPEED = 80;
     final int MAX_PASSENGER = 30;
+    final int FARE = 1000;
 
     public Bus() {
         super();
@@ -60,7 +61,7 @@ public class Bus extends PublicTransportation implements Vehicle {
 
     @Override
     public int getFee() {
-        return getPassengerNum() * 1000;
+        return getPassengerNum() * FARE;
     }
 
     @Override

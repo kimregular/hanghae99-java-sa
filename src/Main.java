@@ -58,7 +58,7 @@ public class Main {
         taxi1.setFuel(-80);
         taxi1.takeFee();
         System.out.println("taxi1 fuel : " +taxi1.getFuel());
-        System.out.println("taxi1 cumulative Fee : "+taxi1.getCulmulativeFee());
+        System.out.println("taxi1 cumulative Fee : "+taxi1.getCumulativeFee());
         System.out.println();
 
         taxi1.setPassengerNum(5);
@@ -76,7 +76,7 @@ public class Main {
         taxi1.takeFee();
         System.out.println("taxi1 fuel : " +taxi1.getFuel());
         System.out.println("taxi1 mode : "+taxi1.getMode());
-        System.out.println("taxi1 cumulative Fee : "+taxi1.getCulmulativeFee());
+        System.out.println("taxi1 cumulative Fee : "+taxi1.getCumulativeFee());
 
     }
 }

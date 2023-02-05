@@ -16,7 +16,7 @@ public class Taxi extends PublicTransportation implements Vehicle {
     }
 
     private int fee;
-    private int culmulativeFee;
+    private int cumulativeFee;
     final int BASIC_RATE_DISTANCE = 2;
     final int BASIC_RATE = 3000;
 
@@ -103,8 +103,8 @@ public class Taxi extends PublicTransportation implements Vehicle {
     }
 
 
-    public int getCulmulativeFee() {
-        return culmulativeFee;
+    public int getCumulativeFee() {
+        return cumulativeFee;
     }
 
 
@@ -122,7 +122,7 @@ public class Taxi extends PublicTransportation implements Vehicle {
     }
 
     public void setCulmulativeFee() {
-        this.culmulativeFee =  getFee();
+        this.cumulativeFee =  getFee();
     }
 
 
